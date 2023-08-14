@@ -7,3 +7,6 @@ body {
     color: navy;
     margin-left: 20px;
   }
+  p {
+    font-family: cursive;
+  }
