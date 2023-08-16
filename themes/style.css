@@ -7,18 +7,19 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0 20px; 
+  font-family: "Book Antiqua", Georgia, "times new roman", serif;
+  margin: 0 100px;
+  padding-top: 15px;
+  width: auto;
+  position: relative;
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  margin: 0;
   padding: 0;
+  font-size: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-  html, body {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-  }
   h1 {
     font-weight: bold;
     color: #333;
@@ -26,14 +27,6 @@ body {
   img {
     max-width: 100%;
     height: auto;
-  }
-  #sitewrapper {
-    font-family: "Book Antiqua", Georgia, "times new roman", serif;
-    margin: 0 100px;
-    padding-top: 15px;
-    width: auto;
-    text-align: center;
-    position: relative;
   }
   .top {  
     /* background-image: url("images/bg-flowers.avif");
