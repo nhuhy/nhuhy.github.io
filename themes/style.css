@@ -141,9 +141,9 @@ html {
     position: relative;
   }
   .top {  
-    background-image: url("images/bg-flowers.avif");
+    /* background-image: url("images/bg-flowers.avif");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     height: 50vh;
     width: 100;
     display: flex;
@@ -157,12 +157,16 @@ html {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   .top .name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+  }
+  .navigation {
+    float: right;
   }
   .navigation ul {
     margin: 0 auto;
