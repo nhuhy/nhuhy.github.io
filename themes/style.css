@@ -172,6 +172,8 @@ html {
     margin-right: 20px;
     font-size: 1.5em;
     text-transform: uppercase;
+    float: right;
+    padding: 14px 16px;
   }
   .centered {
     text-align: center;
