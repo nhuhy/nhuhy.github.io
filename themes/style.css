@@ -3,6 +3,8 @@
 /* Social Media Colors */
 /* Supporter Colors */
 html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   --site-background: #fff;
   --site-background--inverted: #000;
   --overlay-background: #fff;
@@ -117,13 +119,14 @@ html {
   --rating-slider-dot: #ffffff;
   --font-fontawesome: "Font Awesome 6 Free";
 }
-  body {
-    font-family:'Courier New', Courier, monospace;
-  }
-  body, html {
+  html, body {
     height: 100%;
     color: #777;
     line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
   h1 {
     font-weight: bold;
@@ -134,6 +137,7 @@ html {
     height: auto;
   }
   #sitewrapper {
+    font-family: "Book Antiqua", Georgia, "times new roman", serif;
     margin: 0 auto;
     padding-top: 15px;
     width: auto;
@@ -157,11 +161,13 @@ html {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #fff0d5;
     /* box-sizing: border-box; */
   }
   .top .name {
     float: left;
     text-align: center;
+    font-size: x-large;
     padding: 12px;
     border-radius: 4px;
   }
@@ -170,6 +176,9 @@ html {
   }
   .navigation {
     float: right;
+  }
+  .navigation a {
+    color: #777;
   }
   .navigation ul {
     margin: 0 auto;
@@ -186,7 +195,7 @@ html {
     color: #333;
   }
   .navigation a:hover {
-    background-color: #ddd;
+    background-color: #E8DFD0;
     color: black;
   }
   .navigation a.active {
