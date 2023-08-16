@@ -5,119 +5,10 @@
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  --site-background: #fff;
-  --site-background--inverted: #000;
-  --overlay-background: #fff;
-  --callout-background: rgba(25, 55, 103, 0.08);
-  --row-background: rgba(25, 55, 103, 0.04);
-  --color-theme: #193767;
-  --color-theme-bg: rgba(25, 55, 103, 0.08);
-  --color-theme-m: #154489;
-  --color-theme--hov: #fff;
-  --color-theme-bg--hov: #214988;
-  --color-button: rgba(25, 55, 103, 0.06);
-  --color-button-hov: #214988;
-  --color-macro-button-bg: #F2F3F6;
-  --color-macro-button-text: #41669F;
-  --color-macro-button-amazon-bg: #F2F3F6;
-  --color-macro-button-amazon-text: #41669F;
-  --color-macro-button-lezhin-bg: #ed1c24;
-  --color-macro-button-lezhin-text: #FFF;
-  --color-lezhin: #E70012;
-  --color-jnc: #1166DD;
-  --color-cta: #193767;
-  --color-cta-2: #FC5342;
-  --color-text: #000;
-  --color-text--highlight: #000;
-  --color-text--emphasis: #195399;
-  --color-text--inverted: #FFF;
-  --color-input-background: #F2F3F6;
-  --color-input-border--focused: #193767;
-  --color-input-text: #676767;
-  --color-input-text--hover: #4d4d4d;
-  --color-alert-error: rgba(255, 0, 0, 0.1);
-  --color-alert-success: #bfe86d;
-  --color-alert-text: #000;
-  --color-filter-include: #6C9717;
-  --color-filter-exclude: #ff9f96;
-  --color-link: #5d0800;
-  --color-link-alt: #1ea7f9;
-  --color-link--hover: #000000;
-  --color-link--light: #5aa5c5;
-  --color-link-selected: #000;
-  --color-selection-selected: #865479;
-  --color-selection-selected-hov: #9a638b;
-  --color-tags-background: rgba(25, 55, 103, 0.08);
-  --color-tags-background--hov: rgba(25, 55, 103, 0.08);
-  --color-heading: #000;
-  --color-heading--hover: #154489;
-  --color-input-bg: #EDEFF3;
-  --color-input-nav-bg: rgba(25, 55, 103, 0.08);
-  --color-textarea-bg: rgba(25, 55, 103, 0.08);
-  --color-select-bg: rgba(25, 55, 103, 0.08);
-  --color-toggle-off-bg: #515151;
-  --color-autocomplete-bg: #fff;
-  --color-autocomplete-color: #000;
-  --color-autocomplete-color--hov: #193767;
-  --color-modal--background: #fff;
-  --color-quickfilter-color: #000;
-  --color-quickfilter-color--link: #5aa5c5;
-  --color-meter--bg: #f2f1ec;
-  --color-discussions-poster--bg: #3e3e3e;
-  --color-discussions-poster-medadata: #193767;
-  --color-discussions-content--bg: #F2F3F6;
-  --color-discussions-content-quote: #8C9BB3;
-  --color-discussions-content-separator: #f2f3f6;
-  --color-video-recommendations-tile-bg: #f9f8f4;
-  --color-video-recommendations-quote-bg: var(--callout-background);
-  --color-border: #E7E1D3;
-  --border-style: 1px solid var(--color-border);
-  --color-review--trophy: #195399;
-  --color-characters--avatar: #5d0800;
-  --color-card--background: #fff;
-  --color-card--border: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
-  --color-card--title: #000;
-  --color-card--subtitle: rgba(0, 0, 0, 0.6);
-  --color-card--comments: #B0B9C8;
-  --color-username: #000;
-  --color-review--content: #000;
-  --color-review--date: #B0B9C8;
-  --color-profile--userstats: #000;
-  --color--inc-ep: var(--color-theme);
-  --color-footer--background: #f7f7f7;
-  --color-footer--link: #195399;
-  --color-themetoggle--background: #D8D8D8;
-  --color-themetoggle--icon-background: #fff;
-  --color-themetoggle--icon: #193867;
-  --advanced-filter-search--background: rgba(25, 55, 103, 0.04);
-  --advanced-filter-search--inputbg: #fff;
-  --advanced-filter-search-pillfilter--background: #fff;
-  --advanced-filter-search-pillfilter--border: #e7e1d3;
-  --advanced-filter-search-pillbottle-pill--bg: rgba(25, 55, 103, 0.04);
-  --advanced-filter-search-pillbottle-pill--bghover: #fff;
-  --advanced-filter-search-ratingslider--background: #5d0800;
-  --advanced-filter-search-ratingslider--arrows: #000;
-  --advanced-filter-search--showmore: #193767;
-  --input-boxshadow: #ddd;
-  --provider-logo--hd: url(/inc/img/video-providers/hdbutton.png);
-  --heartSwitch-heartOn: #ec97a6;
-  --social-twitter: #1da1f3;
-  --social-facebook: #2d87ff;
-  --social-instagram: #b12fb1;
-  --social-vimeo: #16b5e6;
-  --social-youtube: #fe0000;
-  --social-tumblr: #1d3563;
-  --social-pixiv: #0191f2;
-  --social-spotify: #1dcf5d;
-  --social-soundcloud: #f65111;
-  --social-weibo: #e1152c;
-  --social-website: #5d0800;
-  --supporter-bronze: #bd8d5b;
-  --supporter-silver: #bec2cb;
-  --supporter-gold: #d4af37;
-  --rating-slider: #f5f5f5;
-  --rating-slider-dot: #ffffff;
-  --font-fontawesome: "Font Awesome 6 Free";
+}
+body {
+  margin: 0 20px; 
+  padding: 0;
 }
   html, body {
     height: 100%;
@@ -138,7 +29,7 @@ html {
   }
   #sitewrapper {
     font-family: "Book Antiqua", Georgia, "times new roman", serif;
-    margin: 0 auto;
+    margin: 0 100px;
     padding-top: 15px;
     width: auto;
     text-align: center;
@@ -148,6 +39,7 @@ html {
     /* background-image: url("images/bg-flowers.avif");
     background-size: cover;
     background-position: center; */
+    margin: 0 -100px;
     height: auto;
     width: 100;
     display: flex;
@@ -157,12 +49,15 @@ html {
   }
 
   .container-top {
-    padding: 10px;
+    padding: 10px 100px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     background-color: #fff0d5;
     /* box-sizing: border-box; */
+  }
+  .top a {
+    color: #777;
   }
   .top .name {
     float: left;
@@ -172,13 +67,11 @@ html {
     border-radius: 4px;
   }
   .top .name a {
-    color: #c89fd0;
+    color: #777;
+    font-weight: 500;
   }
   .navigation {
     float: right;
-  }
-  .navigation a {
-    color: #777;
   }
   .navigation ul {
     margin: 0 auto;
