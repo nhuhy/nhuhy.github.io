@@ -133,17 +133,45 @@ html {
     max-width: 100%;
     height: auto;
   }
-  .top {  
+  #sitewrapper {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: auto;
+    text-align: center;
     position: relative;
+  }
+  .top {  
     background-image: url("images/bg-flowers.avif");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 50vh;
     width: 100;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .container-top {
+    padding: 10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
+  .top .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navigation li {
+    margin-right: 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
   }
   .centered {
     text-align: center;
