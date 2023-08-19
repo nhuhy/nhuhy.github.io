@@ -84,6 +84,16 @@ body {
     background-color: dodgerblue;
     color: white;
   }
+  .content {
+    margin: 0 250px;
+    font-family: Geneva, Helvetica, Arial, serif;
+  }
   .centered {
     text-align: center;
+  }
+  .list-block {
+    color: #777;
+  }
+  .list-block h2 {
+    color: #333;
   }
